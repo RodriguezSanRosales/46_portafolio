@@ -14,7 +14,10 @@ $(document).ready(function(){
         },{
             duration: 1000,
         });
+
+    $('[data-toggle="tooltip"]').tooltip();
 });
+
 
 
 
