@@ -7,11 +7,15 @@
 }
 div.foo{
   font-family: 'Lato', sans-serif;
+
 }
 div.foo{
   width: 100%;
   margin: 0 auto;
   text-align: center;
+}
+span{
+  
 }
 .letter{
   display: inline-block;
