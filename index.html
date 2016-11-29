@@ -7,8 +7,8 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/text.css">
-		<!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
 		<link href="css/lightbox.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bungee|Raleway:900" rel="stylesheet">
 	    <link rel="stylesheet" href="css/font-awesome.css">
 	    <link rel="stylesheet" href="css/font-awesome.min.css">
 	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimum-scale=1.0">
@@ -23,14 +23,14 @@
                 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
 			                        <span class="">Menu</span>
                					</button>
-               					<a class="navbar-brand" href="#perfil">Mi portafolio</a>
+               					<a class="navbar-brand" href="index.html">SR</a>
               				</div> 
 			                <div class="collapse navbar-collapse" id="navbar1" >
 			                    <ul class="nav navbar-nav navbar-right"><!--navegador-->
-				                    <li><a href="#perfil"><p>Perfil</p></a></li>
-                                    <li><a href="#desWeb"><p>Desarrollo web</p></a></li>
-                                    <li><a href="#disGrafico"><p>Diseño gráfico</p></a></li>
-                                    <li><a href="#contacto"><p>Contacto</p></a></li>
+				                    <li><a class="enlaceNav" href="#perfil"><p>Acerca de mi</p></a></li>
+                                    <li><a class="enlaceNav" href="#desWeb"><p>Desarrollo web</p></a></li>
+                                    <li><a class="enlaceNav" href="#disGrafico"><p>Diseño gráfico</p></a></li>
+                                    <li><a class="enlaceNav" href="#contacto"><p>Contacto</p></a></li>
 			                    </ul>
 			                </div>
             			</div>
@@ -40,27 +40,29 @@
         </header>
         <section><!--imagen de fondo-->
         	<div class="container-fluid">
-        		<div class="row padTop10"><!--seccion foto con nombre-->
+        		<div class="row padTop5 padBott15"><!--seccion titulo nombre-->
         			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        				<center><img src="images/fotosPortafolio/yo.jpg" class="img-responsive fotoPerfil"></center>
         				<div class="container pdRL15">
         					<div class="foo">
 								<span class="letter" data-letter="S">S</span>
 								<span class="letter" data-letter="R">R</span>
 							</div>
-        				</div>
+							<div class="ribbon text-center">
         				<p class="titNombre text-center">Sandra Rodríguez Rosales</p>
-        				<h2 class="text-center colorWhite">Front-End web Developer</h2>
-        				<a href="#" data-toggle="tooltip" title="hello!"><p class="text-center colorWhite linkcv">Descarga mi CV</p></a>
+
+        				<h2 class="text-center colorfront">Front-End web Developer</h2>
+        				</div>
+        				</div>
         			</div>
         		</div>
         	</div>
         </section>
         <section class="fondoBackCont contenedorSecciones padBott15">
-			<section class=""><!--perfil-acerca de mi-->
+			<section><!--perfil-acerca de mi-->
 	        	<div class="container-fluid">
-	        		<div class="row">
+	        		<div class="row margTop10">
 	        			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	        				<center><img src="images/fotosPortafolio/yo.jpg" class="img-responsive fotoPerfil"></center>
 	        				<a name="perfil"></a><h3 class="text-center titulos padBott5 padTop5">Acerca de mí</h3>
 	        				<p class="pdRL15 text-center">Desarrolladora web front-end y diseñadora gráfica. Disfruto mucho trabajar tanto en equipo como individualmente, creo fielmente que la unión siempre dejara muy buenos resultados ya que siempre se adquiere diferentes puntos de vista y puedes aprender de ellos como ellos de ti. Actualmente busco continuar mi crecimiento profesional en el ámbito de la tecnología.</p>
 	        				<p class="pdRL15 text-center">Me interesa hacer proyectos en los que pueda aportar mis conocimientos y me permita crecer cada día.</p>
@@ -108,25 +110,34 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<h3 class="padTop5 padBott5 text-center">Habilidades interpersonales</h3>
+						<h3 class="padTop5 padBott5 text-center">Habilidades blandas</h3>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 						<ul class="text-left stilenon">
-							<li>Empatía</li>
-							<li>Adaptación al cambio</li>
-							<li>Escucha activa</li>
-							<li>Creatividad</li>
+							<li class="padTB">Empatía</li>
+							<li class="padTB">Adaptación al cambio</li>
+							<li class="padTB">Escucha activa</li>
+							<li class="padTB">Creatividad</li>
 						</ul>	
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<img src="images/brain.png" class="img-responsive imgPlant" alt="growUp">
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 						<ul class="text-right stilenon">
-							<li>Tolerancia a la presión</li>
-							<li>Trabajo en equipo</li>
-							<li>Proactividad</li>
-							<li>Capacidad de aprendizaje</li>
+							<li class="padTB">Tolerancia a la presión</li>
+							<li class="padTB">Trabajo en equipo</li>
+							<li class="padTB">Proactividad</li>
+							<li class="padTB">Capacidad de aprendizaje</li>
 						</ul>
+					</div>
+				</div>
+				<div class="row padTop10">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<hr>
+						<a href="#" data-toggle="tooltip" title="hello!"><p class="text-center linkcv">Descarga mi CV</p></a>
 					</div>
 				</div>
 			</div>
@@ -307,28 +318,29 @@
 				</div>
 			</section>
 		</section>
-		<section class="seccionContacto">
+		<section class="seccionContacto fondoTrans">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<a name="contacto"></a><p class="text-center titulos">Contáctame y hagamos algo juntos</p>
-						<p></p>
 					</div>
 				</div>
-				<div class="row text-center">	
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-						<div class="fondoTrans text-center">
-							<i class="fa fa-phone fa-2x" aria-hidden="true"><p class="textTamP">5529475473</p></i>
-						</div>
-						<div class="fondoTrans text-center">	
-							<i class="fa fa-envelope fa-2x" aria-hidden="true"><p class="textTamP">san.rodzrosales@gmail.com</p></i>
-						</div>	
+				<div class="row text-center padTop5">	
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<i class="fa fa-whatsapp fa-5x" aria-hidden="true"></i>
+						<p>5529475473</p>
+					</div>	
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<i class="fa fa-envelope fa-5x  fa-square-o" aria-hidden="true"></i>
+						<p>san.rodzrosales@gmail.com</p>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<a href="" class="linkHov"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 						<a href="" class="linkHov"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
 					</div>
-				</div>
+				</div>		
 			</div>
 		</section>
 		<footer>

@@ -6,13 +6,16 @@ a {
 	text-decoration: none;
 	color: black;
 }
+a.enlaceNav:hover{
+	background-color: #F5DA81 !important;
+	border-radius: 5% 5% 5% 5%;
+}
 /*imagenes portadas*/
 body{
 	background-image: url("../images/fotosPortafolio/fondoback5.jpg");
 	background-attachment: fixed;
-	background-repeat: repeat;
-	background-size: 100%;
-	width: 100%;
+	background-size: cover;
+	width: 97%;
 	height: 700px;
 }
 .fotoPerfil{
@@ -22,12 +25,34 @@ body{
 	
 	
 }
+.ribbon {
+	margin-left: 15%;
+     width: 550px;
+     height: 230px;
+     -moz-border-radius: 0 50% / 0 100%;
+     -webkit-border-radius: 0 50% / 0 100%;
+     border-radius: 0 50% / 0 100%;
+     background: rgba(250, 250, 250, 0.6);
+    
+ }
+ .colorfront{
+ 	color: #17775F;
+ 	
+ }
+ .lineBla{
+ 	border: 0.5px solid;
+ 	width: 25%;
+
+
+ }
 /*letras*/
 .titulos{
 
 	font-weight: bold;
 	font-size: 300%;
 }
+
+
 .colorWhite{
 	color: white;
 }
@@ -40,13 +65,19 @@ body{
 }
 .titNombre{
 	font-size: 3em;
-	color: rgba(0, 0, 0, 0.5);
 	font-weight: 800;
+}
+.backTitle{
+	background-color: rgba(225, 225, 225, 0.5);
+	width: 50%;
 }
 /*acomodo*/
 .maPd0{
 	margin: 0 !important;
 	padding: 0 !important;
+}
+.padTB{
+	padding: 2% 0;
 }
 
 .pdRL15{
@@ -71,17 +102,24 @@ body{
 	padding-top: 25%;
 }
 .padBott15{
-	padding-bottom: 15%;
+	padding-bottom: 10%;
 }
 .padBott5{
 	padding-bottom: 5%;
 }
-.margTop15{
-	margin-top: 45%;
+.margTop10{
+	margin-top: 10%;
+}
+.margBotTop5{
+	margin: 5% 0;
 }
 
 ul.line{
 	text-decoration: none;
+}
+hr{
+	width: 50%;
+	border-style: dashed;
 }
 
 /*skills*/
@@ -122,7 +160,10 @@ progress::-moz-progress-bar {
 	 padding-left: 8%;
 
 }
-
+.imgPlant{
+	width: 85%;
+	opacity: 0.2;
+}
 /*contenedores*/
 .contenedorSecciones{
 	background-color: white;
@@ -198,42 +239,26 @@ progress::-moz-progress-bar {
 /*contacto*/
 .seccionContacto{
 	padding: 5% 0;
-	height: 100px;
-	width: 100%;
+	width: 101%;
+	height: auto;
+	margin-left: 1%;
+	background: rgba(255, 255, 255, 0.4);
 }
 
-.linkHov i{
-	padding: 0 5%;
-	margin-top: 20%;
-}
+
 .linkHov:hover{
 	color: red;
 }
 
-.fondoTrans{
-	
-	padding: 5%;
-	width: 60%;
-	margin: 5% 0;
-	background: rgba(255, 255, 255, 0.5);
-	margin-left: 22%;
-	border-radius: 5px 5px 5px 5px;
 
-}
-.textTamP{
-	
-	padding-left: 2%;
-	font-size: 0.5em;
 
-	
-
-}
 
 .bgBla{
 	background-color: black;
-	width: 100%;
+	width: 103%;
 	padding: 1%;
 }
+
 	
 /*mediaquery*/
 
