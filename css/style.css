@@ -1,3 +1,4 @@
+
 /*navegador*/
 nav.transparent{
 	 background: rgba(255,255,255,0.75); 
@@ -5,6 +6,9 @@ nav.transparent{
 a {
 	text-decoration: none;
 	color: black;
+}
+nav li a p {
+	list-style-type: none;
 }
 a.enlaceNav:hover{
 	background-color: #F5DA81 !important;
@@ -341,4 +345,15 @@ progress::-moz-progress-bar {
 	
 		
  }
-   
+ @media (min-width : 300px) and (max-width : 767px) {
+	.margBot15 {
+	
+		margin-bottom: 15%;
+	}
+	
+	button {
+		margin: 0 35%;
+		width: 30%;
+		height: 30px;
+	}	
+ }

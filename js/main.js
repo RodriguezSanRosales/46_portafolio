@@ -1,19 +1,16 @@
 
 
 $(document).ready(function(){
-    // $('.movible').hover(function() {
-    //     $(this).animate({
-    //         paddingLeft: "60px"
-    //     },{
-    //         duration: 1000,
-    //     });
-    // };
-    // function() {
-    //     $(this).animate({
-    //         paddingLeft: "5px"
-    //     },{
-    //         duration: 1000,
-    //     });
+
+    var linkInterno = $('a[href^="#"]');
+
+    linkInterno.on('click',function(e) { 
+
+    e.preventDefault();
+    var href = $(this).attr('href');
+    $('html, body').animate({ scrollTop : $( href ).offset().top }, 'slow', 'easeInOutExpo');
+
+    });
 
     $('[data-toggle="tooltip"]').tooltip();
 });
