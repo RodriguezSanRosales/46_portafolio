@@ -11,8 +11,7 @@ $(document).ready(function(){
     $('html, body').animate({ scrollTop : $( href ).offset().top }, 'slow', 'easeInOutExpo');
 
     });
-
-    $('[data-toggle="tooltip"]').tooltip();
+    
 });
 
 
