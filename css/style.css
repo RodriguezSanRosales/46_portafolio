@@ -18,7 +18,7 @@ a.enlaceNav:hover{
 body{
 	background-image: url("../images/fotosPortafolio/fondoback5-min.jpg");
 	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-size: cover;
 	width: 97%;
 }
@@ -356,4 +356,12 @@ progress::-moz-progress-bar {
 		width: 30%;
 		height: 30px;
 	}	
+
+	body{
+		background-image: url("../images/fotosPortafolio/fondoback5-min.jpg");
+		background-attachment: fixed;
+		background-repeat: repeat;
+		background-size: cover;
+		width: 95%;
+	}
  }
