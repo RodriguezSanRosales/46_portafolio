@@ -358,13 +358,7 @@ progress::-moz-progress-bar {
 		height: 30px;
 	}	
 
-	body{
-		background-image: url("../images/fotosPortafolio/fondoback5.jpg");
-		background-attachment: fixed;
-		background-repeat: repeat;
-		background-size: cover;
-		width: 95%;
-	}
+	
 	.fotoPerfil{
 		width: 150px;
 		height: auto;
