@@ -43,6 +43,9 @@ body{
 
 
  }
+ .border{
+ 	border: 0.5px solid #E8E7E7;
+ }
 /*letras*/
 .titulos{
 
