@@ -16,7 +16,7 @@ a.enlaceNav:hover{
 }
 /*imagenes portadas*/
 body{
-	background-image: url("../images/fotosPortafolio/fondoback5-min.jpg");
+	background-image: url("../images/fotosPortafolio/nuevasFotos/fondoback5.jpg");
 	background-attachment: fixed;
 	background-repeat: repeat;
 	background-size: cover;
@@ -170,7 +170,7 @@ progress::-moz-progress-bar {
 .contenedorSecciones{
 	background-color: white;
 	width: 90%;
-	margin:  5% 2% 0 6%;
+	margin:  5% 7%;
 	
 }
 
@@ -358,10 +358,17 @@ progress::-moz-progress-bar {
 	}	
 
 	body{
-		background-image: url("../images/fotosPortafolio/fondoback5-min.jpg");
+		background-image: url("../images/fotosPortafolio/nuevasFotos/fondoback5.jpg");
 		background-attachment: fixed;
 		background-repeat: repeat;
 		background-size: cover;
 		width: 95%;
+	}
+	.fotoPerfil{
+		width: 150px;
+		height: auto;
+		border-radius: 50%;
+		
+		
 	}
  }
