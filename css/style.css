@@ -16,7 +16,7 @@ a.enlaceNav:hover{
 }
 /*imagenes portadas*/
 body{
-	background-image: url("../images/fotosPortafolio/nuevasFotos/fondoback5.jpg");
+	background-image: url("../images/fotosPortafolio/fondoback5.jpg");
 	background-attachment: fixed;
 	background-repeat: repeat;
 	background-size: cover;
@@ -43,9 +43,7 @@ body{
 
 
  }
- .border{
- 	border: 0.5px solid #E8E7E7;
- }
+
 /*letras*/
 .titulos{
 
@@ -361,7 +359,7 @@ progress::-moz-progress-bar {
 	}	
 
 	body{
-		background-image: url("../images/fotosPortafolio/nuevasFotos/fondoback5.jpg");
+		background-image: url("../images/fotosPortafolio/fondoback5.jpg");
 		background-attachment: fixed;
 		background-repeat: repeat;
 		background-size: cover;
