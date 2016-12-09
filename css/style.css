@@ -16,7 +16,7 @@ a.enlaceNav:hover{
 }
 /*imagenes portadas*/
 body{
-	background-image: url("../images/fotosPortafolio/fondoback5.jpg");
+	background-image: url("../images/fotosPortafolio/fondoback5-compressor.jpg");
 	background-attachment: fixed;
 	background-repeat: repeat;
 	background-size: cover;
