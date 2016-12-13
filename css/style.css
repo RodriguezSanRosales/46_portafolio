@@ -2,8 +2,7 @@
 /*navegador*/
 nav.transparent{
 	 background: rgba(255,255,255,0.75); 
-}
-a {
+ a {
 	text-decoration: none;
 	color: black;
 }
@@ -16,7 +15,7 @@ a.enlaceNav:hover{
 }
 /*imagenes portadas*/
 body{
-	background-image: url("../images/fotosPortafolio/fondoback5.jpg");
+	background-image: url("../images/fotosPortafolio/fondoback5-copia.jpg");
 	background-attachment: fixed;
 	background-repeat: repeat;
 	background-size: cover;
